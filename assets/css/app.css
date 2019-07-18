@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Pinyon+Script|Source+Sans+Pro&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -11,5 +12,11 @@ section {
   max-width: 1200px;
   margin: 0 auto;
   background-color: pink;
+}
+
+.hamburger {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 /*# sourceMappingURL=app.css.map */
