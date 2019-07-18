@@ -17,6 +17,7 @@
 
 nav {
   width: 615px;
+  margin-top: 30px;
 }
 
 .nav-bar {
@@ -42,6 +43,11 @@ nav {
   line-height: 18px;
   text-align: center;
   letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.logo {
+  margin-top: 30px;
 }
 
 .nav-container {
@@ -116,5 +122,28 @@ h4 {
 
 .text {
   width: 445px;
+}
+
+.text p {
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #383838;
+}
+
+.button {
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #c89446;
+}
+
+.button a {
+  text-decoration: none;
+  color: #c89446;
 }
 /*# sourceMappingURL=app.css.map */
