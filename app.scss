@@ -10,12 +10,24 @@ $subtitleColor: #383838;
   font-family: sans-serif;
 }
 
+
+//----------------------------------------Navbar---------------------------
+
+
 .header {
     width: 100vw;
     height: 100vh;
     position: relative;
     background-color: $subtitleColor;
     z-index: -2;
+}
+.nav-container {
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 //----------------------------------------------Hamburger--------------------------------
